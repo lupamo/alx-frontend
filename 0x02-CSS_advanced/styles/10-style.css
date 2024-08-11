@@ -1,4 +1,4 @@
-/*  a text decoration */
+/*  a text alignment */
 html{
 	scroll-behavior: smooth;
 	font-size: 62.5%;
@@ -26,7 +26,7 @@ html{
 }
 
 .section-header{
-	align-items: var(---section-header-align);
+	text-align: var(---section-header-align);
 }
 .section-tagline, .card-category{
 	color: var(--color-primary);
