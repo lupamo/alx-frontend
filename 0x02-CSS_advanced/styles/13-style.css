@@ -63,10 +63,10 @@ h1, h2, h3, h4, h5, h6{
 .visually-hidden{
 	display: none;
 }
-a[href^="#"]{
+a{
 	text-decoration: none;
 }
-a:visited{
+a[href^="#"]:visited{
 	font-style: italic;
 }
 a:hover{
