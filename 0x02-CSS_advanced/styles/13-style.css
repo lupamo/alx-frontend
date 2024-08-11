@@ -63,15 +63,15 @@ h1, h2, h3, h4, h5, h6{
 .visually-hidden{
 	display: none;
 }
-a{
+a[href]{
 	text-decoration: none;
 }
-a:visited{
+a[href]:visited{
 	font-style: italic;
 }
-a:hover{
+a[href]:hover{
 	text-decoration: underline;
 }
-a:active{
+a[href]:active{
 	background-color: var(--color-light-grey);
 }
