@@ -201,9 +201,9 @@ html{
 	--nav-item-font-family: var(--font-family-title);
 	--nav-item-font-weight: var(--font-weight-bold);
 	--nav-item-font-size: var(--font-size-medium);
-	--nav-item-letter-spacing: calc(0.04 * 1rem);
+	--nav-item-letter-spacing: calc(4% * 1rem);
 	--nav-item-display: inline-block;
-	--nav-item-margin: calc(3 * 1rem) 0 0 0;
+	--nav-item-margin:  0 0 calc(3 * 1rem) 0;
 	--nav-item-link-hover: var(--color-primary);
 }
 .section{
@@ -277,8 +277,8 @@ a:active{
 	float: right;
 }
 .nav{
-	margin: 0, 0, 0, 0;
-	padding: 0, 0, 0, 0;
+	margin: 0;
+	padding: 0;
 	list-style: none;
 	text-align: center;
 }
