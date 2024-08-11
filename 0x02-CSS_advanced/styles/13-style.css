@@ -69,9 +69,9 @@ a[href]{
 a:visited{
 	font-style: italic;
 }
-a[href]:hover{
+a:hover{
 	text-decoration: underline;
 }
-a:active{
+a[href]:active{
 	background-color: var(--color-light-grey);
 }
