@@ -24,13 +24,6 @@ html{
 	--line-height-big: 1.8;
 	---section-header-align: center;
 }
-
-.section-header{
-	text-align: var(---section-header-align);
-}
-.section-tagline, .card-category{
-	color: var(--color-primary);
-}
 body, a{
 	color: var(--text-color);
 	color: #161616;
@@ -48,6 +41,12 @@ h1, h2, h3, h4, h5, h6{
 }
 .visually-hidden{
 	display: none;
+}
+.section-header{
+	text-align: var(---section-header-align);
+}
+.section-tagline, .card-category{
+	color: var(--color-primary);
 }
 .section-tagline, .card-category{
 	color: var(--color-primary);
