@@ -45,7 +45,7 @@ html{
 	text-transform: var(--section-tagline-transform);
 	font-weight: var(--font-weight-bold);
 }
-body, a{
+body, a[href^="#"]{
 	color: var(--text-color);
 	color: #504f4f;
 	color: var(--text-color);
@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6{
 .visually-hidden{
 	display: none;
 }
-a[a]{
+a[href^="#"]{
 	text-decoration: none;
 }
 a:visited{
