@@ -1,4 +1,4 @@
-/*  a text alignment */
+/*  a text decoration */
 html{
 	scroll-behavior: smooth;
 	font-size: 62.5%;
@@ -22,23 +22,19 @@ html{
 	--line-height-small: 1.2;
 	--line-height-base: 1.5;
 	--line-height-big: 1.8;
-	---section-header-align: center;
+	--section-header-align: center;
 }
-
 .section-header{
-	text-align: var(---section-header-align);
+	text-align: var(--section-header-align);
 }
-
 .section-tagline, .card-category{
 	color: var(--color-primary);
 }
-
 body, a{
 	color: var(--text-color);
-	color: #161616;
+	color: #504f4f;
 	color: var(--text-color);
 }
-
 body{
 	font-family: var(--font-family-base);
 	font-size: var(--font-size-medium);
@@ -51,10 +47,6 @@ h1, h2, h3, h4, h5, h6{
 }
 .visually-hidden{
 	display: none;
-}
-
-.section-tagline, .card-category{
-	color: var(--color-primary);
 }
 a{
 	text-decoration: none;
