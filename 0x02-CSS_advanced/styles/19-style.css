@@ -228,10 +228,11 @@ html{
 	margin: var(--section-title-margin);
 	color: var(--section-title-color);
 }
-.section-tagline, .card-category{
+.card-category{
 	color: var(--color-primary);
 }
 .section-tagline{
+	color: var(--color-primary);
 	font-family: var(--font-family-title);
 	text-transform: var(--section-tagline-transform);
 	font-weight: var(--font-weight-bold);
