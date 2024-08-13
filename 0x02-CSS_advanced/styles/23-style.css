@@ -338,4 +338,6 @@ ul .row{
 .social-link {
 	display: block;
 }
-
+svg {
+	fill: var(--text-color);
+}
