@@ -391,8 +391,8 @@ article{
     padding-top: 1rem;
     color: var(--color-primary);
 }
-section{
-	background-size: 90rem auto;
+.section-hero {
+	background: 90rem auto;
 }
 .section-hero .section-title {
 	margin-bottom: 5rem;
