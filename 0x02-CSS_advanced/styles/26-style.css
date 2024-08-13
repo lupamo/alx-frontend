@@ -378,7 +378,7 @@ ul .row{
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
 }
-article{
+.card-testimonial{
 	text-align: center;
 }
 .card-testimonial .card-avatar {
