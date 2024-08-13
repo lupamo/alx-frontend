@@ -340,8 +340,10 @@ ul .row{
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background-color: var(--color-white);
-	--button-color: var(--color-white);
 }
+[data-section-theme="dark"] .button {
+	--button-color: var(--color-white);
+  }
 .footer-address{
 	color: var(--text-color);
 }
