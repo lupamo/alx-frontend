@@ -444,11 +444,11 @@ header-logo a{
 .card-inner .card-work{
 	position: absolute;
 	top: -0.1rem;
-	left: -0.1erm;
+	left: -0.1remm;
 	right: -0.1rem;
 	z-index: 1;
 }
-.card-inner:hover .card-work{
+.card-inner:hover .card-inner{
 	background-color: rgba(0, 0, 0, 0.7);
 }
 .card-work .card-title{
